@@ -12,6 +12,7 @@ import java.io.IOException;
 
 public class LoginPageController {
     App app = new App();
+
     @FXML
     private Button loginbtn;
 
