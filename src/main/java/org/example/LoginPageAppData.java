@@ -21,7 +21,7 @@ public class LoginPageAppData {
     }
     public boolean verifyUsername(){
         switch(getUsername()){
-            case "usernametest": // insert database
+            case "utest": // insert database
                 return true;
             default:
                 return false;
@@ -29,7 +29,7 @@ public class LoginPageAppData {
     }
     public boolean verifyPassword(){
         switch (getPassword()){
-            case "passwordtest": // insert database
+            case "ptest": // insert database
                 return true;
             default:
                 return false;

@@ -64,6 +64,5 @@ public class MainPageController implements Initializable {
      */
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        HboxPane.resize(1308,574);
     }
 }

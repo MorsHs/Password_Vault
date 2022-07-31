@@ -10,12 +10,11 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
-<HBox fx:id="HboxPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="574.0" prefWidth="1308.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.MainPageController">
+<HBox fx:id="HboxPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="574.0" minWidth="1308.0" prefHeight="574.0" prefWidth="1308.0" snapToPixel="false" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.MainPageController">
    <children>
-      <Pane prefHeight="695.0" prefWidth="558.0">
+      <Pane minHeight="-Infinity" prefHeight="695.0" prefWidth="558.0">
          <children>
-            <TreeView fx:id="treeViewPanel" layoutY="56.0" prefHeight="512.0" prefWidth="460.0" />
+            <TreeView fx:id="treeViewPanel" layoutY="56.0" prefHeight="512.0" prefWidth="453.0" />
          </children>
       </Pane>
       <Pane prefHeight="695.0" prefWidth="517.0">
@@ -26,7 +25,6 @@
                </font>
             </TextField>
             <Separator layoutX="-300.0" layoutY="56.0" prefHeight="0.0" prefWidth="1149.0" />
-            <Separator layoutX="-3.0" layoutY="60.0" orientation="VERTICAL" prefHeight="512.0" prefWidth="0.0" />
             <ListView layoutY="56.0" prefHeight="462.0" prefWidth="412.0" />
             <Button fx:id="addAccountBtn" layoutX="5.0" layoutY="526.0" mnemonicParsing="false" onAction="#addAccount" prefHeight="41.0" prefWidth="404.0" text="+">
                <font>
